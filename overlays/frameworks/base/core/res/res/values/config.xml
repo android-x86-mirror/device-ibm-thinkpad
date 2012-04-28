@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <bool name="config_reverseDefaultRotation">true</bool>
+    <!--bool name="config_reverseDefaultRotation">true</bool-->
     <integer name="config_lidOpenRotation">0</integer>
     <!-- Indicate whether the lid state impacts the accessibility of
          the physical keyboard.  0 means it doesn't, 1 means it is accessible

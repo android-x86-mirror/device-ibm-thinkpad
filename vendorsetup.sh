@@ -1,2 +1,2 @@
-add_lunch_combo thinkpad_x41t-eng
-add_lunch_combo thinkpad_x41t-user
+add_lunch_combo thinkpad-eng
+add_lunch_combo thinkpad-user

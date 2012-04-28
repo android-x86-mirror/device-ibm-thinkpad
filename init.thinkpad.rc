@@ -33,7 +33,9 @@ on property:dev.bootcomplete=1
     start amixer-speaker
 
     chmod 660 /sys/class/rfkill/rfkill0/state
+    chmod 660 /sys/class/rfkill/rfkill1/state
     chown system bluetooth /sys/class/rfkill/rfkill0/state
+    chown system bluetooth /sys/class/rfkill/rfkill1/state
 
 on property:sys.boot_completed=1
     start tablet-mode

@@ -26,4 +26,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/x41t.mk
+    $(LOCAL_DIR)/thinkpad.mk
