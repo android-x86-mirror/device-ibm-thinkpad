@@ -9,7 +9,7 @@ LOCAL_SRC_FILES:= wactablet.c wacserial.c wacusb.c wacom-input.c
 
 LOCAL_C_INCLUDES := $(KERNEL_HEADERS)
 
-LOCAL_CFLAGS := -O2 -Wall
+LOCAL_CFLAGS := -O2 -Wall -Wno-unused-parameter
 
 ifeq ($(TARGET_ARCH),x86)
 LOCAL_CFLAGS += -Ulinux
